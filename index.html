@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>조현스토리 부동산 매물 리스트</title>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2a5d84;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      color: #2a5d84;
+    }
+    .card p {
+      margin: 8px 0 16px;
+      color: #555;
+    }
+    .card a {
+      display: inline-block;
+      color: white;
+      background-color: #2a5d84;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card a:hover {
+      background-color: #1e476a;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✨ 조현스토리 부동산 매물 리스트</h1>
+    <p>상가주택, 전원주택, 토지 등 엄선된 매물 소개</p>
+  </header>
+  <div class="container">
+    <div class="grid">
+      <div class="card">
+        <div class="card-content">
+          <h2>상가주택 (용문면)</h2>
+          <p>경기도 양평군 용문면 중원산로 240</p>
+          <a href="stay240/index.html">자세히 보기 →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 조현스토리. All rights reserved.
+  </footer>
+</body>
+</html>
