@@ -1,4 +1,3 @@
-# 사용자가 준 전체 HTML 문자열을 그대로 파일로 저장
 complete_html_code = '''<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -186,9 +185,3 @@ complete_html_code = '''<!DOCTYPE html>
 
 </body>
 </html>'''
-
-final_html_path = "/mnt/data/index_full.html"
-with open(final_html_path, "w", encoding="utf-8") as f:
-    f.write(complete_html_code)
-
-final_html_path
